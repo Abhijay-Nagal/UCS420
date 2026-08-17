@@ -1,3 +1,8 @@
+roll_number = 1024170013
+
+digits = [int(digit) for digit in str(roll_number)]
+L = [digit * 10 for digit in digits]
+
 scores = tuple(L[:8])
 
 print(scores)
